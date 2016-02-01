@@ -17,7 +17,5 @@ setup(
 
     entry_points = {'hotdoc.extensions': 'get_extension_classes = hotdoc_gst_extension.gst_extension:get_extension_classes'},
     install_requires = [
-        'hotdoc>=0.6.5',
-        'hotdoc_c_extension>=0.6.5',
     ],
 )
